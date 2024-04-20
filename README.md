@@ -1,44 +1,45 @@
-# the-reserves
+# The Reserves Workspaces
 
-This is an alternative open-source Zoom workspace reservation system, designed to be fully operational in an air-gapped and self-managed environment. It allows users to efficiently reserve workspaces for specific time slots, integrating seamlessly into facilities without internet connectivity.
-Features
+This project is an alternative open-source workspace reservation system designed to be fully operational in an air-gapped and self-managed environment. It enables users to efficiently reserve workspaces for specific time slots, integrating seamlessly into facilities without internet connectivity, now in a convenient desktop application format.
 
-    User Management: Allows the creation and management of user accounts, with capabilities to add, edit, and deactivate users.
+## Features
 
-    Workspace Management: Administrators can define and configure workspace settings including location, capacity, and availability.
+- **User Management:** Allows the creation and management of user accounts, with capabilities to add, edit, and deactivate users.
+- **Workspace Management:** Administrators can define and configure workspace settings including location, capacity, and availability.
+- **Floorplan Management:** Users can upload a floorplan of their facility and interactively select workspaces directly from the floorplan to make reservations.
+- **Reservation Management:** Supports making, viewing, and managing reservations with options to modify or cancel existing bookings.
+- **Air-gapped Capability:** Fully functional without any internet connection, ensuring data privacy and security.
+- **Desktop Application:** Built using PyQt6, providing a robust interface for managing reservations directly from your desktop.
 
-    Floorplan Management: Users can upload a floorplan of their facility and interactively select workspaces directly from the floorplan to make reservations.
+## Requirements
 
-    Reservation Management: Supports making, viewing, and managing reservations with options to modify or cancel existing bookings.
+- Python 3.8 or newer
+- PyQt6
+- SQLite3
 
-    Air-gapped Capability: Fully functional without any internet connection, ensuring data privacy and security.
+## Installation
 
-Requirements
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/zoom-workspace-reservation.git
 
-    Python 3.8 or newer
-    SQLite3
-
-Installation
-
-    Clone the repository:
+    Navigate to the project directory:
 
     bash
-
-git clone https://github.com/your-username/zoom-workspace-reservation.git
-
-Navigate to the project directory:
-
-bash
 
 cd zoom-workspace-reservation
 
 Install necessary Python packages:
 
+bash
+
+pip install PyQt6 PyQt6-sip
+pip install SQLAlchemy
 pip install -r requirements.txt
 
 Run the application:
 
-css
+bash
 
     python main.py
 
@@ -74,4 +75,4 @@ We welcome contributions to this project. If you're interested in helping out, p
 For major changes, please open an issue first to discuss what you would like to change. Please ensure to update tests as appropriate.
 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. """
