@@ -21,7 +21,7 @@ This project is an alternative open-source workspace reservation system designed
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/zoom-workspace-reservation.git
+   git clone https://github.com/cardoza1991/the-reserves.git
 
     Navigate to the project directory:
 
